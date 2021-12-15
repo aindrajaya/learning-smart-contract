@@ -3,6 +3,14 @@ pragma solidity ^0.8.10;
 
 contract ValueTypes {
     // Write your code here
+    /**
+    Notes of Value Types in Solidity Syntax 
+    When it comes error:
+    # the semicolon is very important on the Solidity syntax, it will end the argument.
+    //ParseEror: Expected ';' but got 'int' -> because the compiler read straighforward to the next line of solidityh syntax if you don't placed semicolon to end your argument/declaration
+    bool publi b = true
+    int public i = -122;
+    */
     bool public b = true;
     int public i = -122;
     uint public u = 123;
