@@ -41,6 +41,13 @@ contract ValueTypes {
     Error comes when, 
     uint public u = -123;
     TypeError: Type int_const -123 is not implicitly convertible to expected type uint256. Cannot implicitly convert signed literal to unsigned type.
+
+    ===========
+    Unsigned Interger Range Between, greater than zero
+    uint256 = 0 to 2**256 -1
+    uint8 = 0 to 2**8 -1
+    uint16 = 0 to 2**16 - 1
+    uint128 = 0 to 2**128 -1
     */
     uint public u = 123;
     address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
