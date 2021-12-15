@@ -28,6 +28,10 @@ contract ValueTypes {
     3. int16 = -2**16 to 2**16
     4. int128 = -2**128 to 2**128
     5. int256 = -2**256 to 2**256
+
+    Find the Minimum and Maximum Value in Integer
+    int public minInt = type(int).min; //minimum
+    int public maxInt = type(int).max; //maximum
     */
     int public i = -122;
     uint public u = 123;
