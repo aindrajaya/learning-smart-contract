@@ -16,7 +16,11 @@ contract ValueTypes {
     // public address addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
     // public bytes32 b32 = 0x89c58ced8a9078bdef2bb60f22e58eeff7dbfed6c2dff3e7c508b629295926fa;
     */
+
+    //Value Classified Data Types in Solidity
+    //Boolean, true or false
     bool public b = true;
+    
     int public i = -122;
     uint public u = 123;
     address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
