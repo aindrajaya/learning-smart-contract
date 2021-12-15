@@ -36,6 +36,12 @@ contract ValueTypes {
     int public i = -122;
 
     //Uint - Unsigned Integer, must be greater than 0
+    /**
+    ===========
+    Error comes when, 
+    uint public u = -123;
+    TypeError: Type int_const -123 is not implicitly convertible to expected type uint256. Cannot implicitly convert signed literal to unsigned type.
+    */
     uint public u = 123;
     address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
     bytes32 public b32 = 0x89c58ced8a9078bdef2bb60f22e58eeff7dbfed6c2dff3e7c508b629295926fa;
