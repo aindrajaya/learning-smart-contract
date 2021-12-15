@@ -22,6 +22,13 @@ contract ValueTypes {
     bool public b = true;
 
     //Integer, int, range between -> a number data types
+    /** 
+    1. int = -2**1 to 2**1
+`   2. int8 = -2**8 to 2**8
+    3. int16 = -2**16 to 2**16
+    4. int128 = -2**128 to 2**128
+    5. int256 = -2**256 to 2**256
+    */
     int public i = -122;
     uint public u = 123;
     address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
