@@ -20,7 +20,8 @@ contract ValueTypes {
     //Value Classified Data Types in Solidity
     //Boolean, true or false
     bool public b = true;
-    
+
+    //Integer, int, range between -> a number data types
     int public i = -122;
     uint public u = 123;
     address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
